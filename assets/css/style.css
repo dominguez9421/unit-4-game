@@ -1,0 +1,111 @@
+html, body{
+    background: url("../images/triforce.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+header {
+    height: 70px;
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    
+}
+
+h1 {
+    color: yellow;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    color: yellow;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+h5 {
+    color: yellow;
+    font-family: 'Nunito', sans-serif;
+}
+
+.panel-heading {
+    float: left;
+}
+
+
+
+.main-container {
+    float: left;
+    background-attachment: fixed; 
+    display: block;
+    width: 300px;
+	margin: 70px 0;
+	padding: 40px;
+	background-color: black;
+    border: 1px solid yellow;
+}
+
+.panel-primary{
+    background-attachment: fixed; 
+    float: left;
+    display: block;
+    width: 100px;
+	margin: 70px 0;
+	padding: 40px;
+	background-color: black;
+    border: 1px solid yellow;
+
+
+}
+
+
+.target {
+    color: yellow;
+    background-attachment: fixed; 
+    display: block;
+    width: 500px;
+	margin: 70px 0;
+	padding: 40px;
+	background-color: black;
+    border: 1px solid yellow; 
+    
+}
+
+#blue {
+    height: 100px; 
+    width: 100px;
+    
+}
+
+#green {
+    height: 100px; 
+    width: 100px;
+    
+}
+#red {
+    height: 100px; 
+    width: 100px;
+    
+}
+
+#yellow {
+    height: 100px; 
+    width: 100px;
+    
+}
+
+#link {
+    float: right;
+    height: 200px;
+    width: 200px;
+}
+
